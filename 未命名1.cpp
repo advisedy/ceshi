@@ -42,13 +42,13 @@ int cnt;
 
 
 signed main() {
-    fileRead();
     kuaidu();
     T = 1;
     //cin >> T;
     while (T--) {
 		cin>>n;
-		cout<<n;
+		cout<<n<<endl;
+		cout<<n+n<<endl;
     }
     return 0;
 }
